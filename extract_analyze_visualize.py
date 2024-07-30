@@ -74,8 +74,8 @@ def category_url(url,session):
         extract_book_details(category_page_url,session)
 
 if __name__ == '__main__':
-    # session=requests.session()
-    # home_url="https://books.toscrape.com/"
-    # category_url(home_url,session)
-    perform_aggregation()
+    session=requests.session()
+    home_url="https://books.toscrape.com/"
+    category_url(home_url,session)
+    # perform_aggregation()
 
